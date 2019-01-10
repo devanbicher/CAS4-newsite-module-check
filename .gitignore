@@ -1,0 +1,8 @@
+#ignore the emacs files with ~ at the end
+
+*.*~
+
+#ignore the backup list folder
+
+modulelistbackups
+modulelistbackups/*
