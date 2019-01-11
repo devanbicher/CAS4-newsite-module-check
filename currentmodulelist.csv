@@ -1,0 +1,176 @@
+Access control,Block Access (block_access),7.x-1.6
+Access control,Content Access (content_access),7.x-1.2-beta2
+Access control,Content Access Rules Integrations (content_access_rules),7.x-1.2-beta2
+Administration,Administration Development tools (admin_devel),7.x-3.0-rc6
+Administration,Administration menu (admin_menu),7.x-3.0-rc6
+Administration,Administration menu Toolbar style (admin_menu_toolbar),7.x-3.0-rc6
+Administration,Filter permissions (filter_perms),7.x-1.0
+Administration,Module filter (module_filter),7.x-2.1
+Biblio,Biblio (biblio),7.x-1.0-rc7
+Biblio,Biblio - BibTex (biblio_bibtex),7.x-1.0-rc7
+Biblio,Biblio - CiteProc (biblio_citeproc),7.x-1.0-rc7
+Biblio,Biblio - Crossref (biblio_crossref),7.x-1.0-rc7
+Biblio,Biblio - EndNote Tagged (biblio_tagged),7.x-1.0-rc7
+Biblio,Biblio - EndNote XML (biblio_xml),7.x-1.0-rc7
+Biblio,Biblio - MARC (biblio_marc),7.x-1.0-rc7
+Biblio,Biblio - PubMed (biblio_pm),7.x-1.0-rc7
+Biblio,Biblio - RIS (biblio_ris),7.x-1.0-rc7
+Biblio,Biblio - RTF (biblio_rtf),7.x-1.0-rc7
+Core,Aggregator (aggregator),7.60
+Core,Block (block),7.60
+Core,Blog (blog),7.60
+Core,Book (book),7.60
+Core,Color (color),7.60
+Core,Comment (comment),7.60
+Core,Contact (contact),7.60
+Core,Content translation (translation),7.60
+Core,Contextual links (contextual),7.60
+Core,Dashboard (dashboard),7.60
+Core,Database logging (dblog),7.60
+Core,Field (field),7.60
+Core,Field SQL storage (field_sql_storage),7.60
+Core,Field UI (field_ui),7.60
+Core,File (file),7.60
+Core,Filter (filter),7.60
+Core,Forum (forum),7.60
+Core,Help (help),7.60
+Core,Image (image),7.60
+Core,List (list),7.60
+Core,Locale (locale),7.60
+Core,Menu (menu),7.60
+Core,Node (node),7.60
+Core,Number (number),7.60
+Core,OpenID (openid),7.60
+Core,Options (options),7.60
+Core,Overlay (overlay),7.60
+Core,Path (path),7.60
+Core,PHP filter (php),7.60
+Core,Poll (poll),7.60
+Core,RDF (rdf),7.60
+Core,Search (search),7.60
+Core,Shortcut (shortcut),7.60
+Core,Statistics (statistics),7.60
+Core,Syslog (syslog),7.60
+Core,System (system),7.60
+Core,Taxonomy (taxonomy),7.60
+Core,Testing (simpletest),7.60
+Core,Text (text),7.60
+Core,Toolbar (toolbar),7.60
+Core,Tracker (tracker),7.60
+Core,Trigger (trigger),7.60
+Core,Update manager (update),7.60
+Core,User (user),7.60
+Database,Schema (schema),7.x-1.3
+Date/Time,Date (date),7.x-2.10
+Date/Time,Date All Day (date_all_day),7.x-2.10
+Date/Time,Date API (date_api),7.x-2.10
+Date/Time,Date Context (date_context),7.x-2.10
+Date/Time,Date Popup (date_popup),7.x-2.10
+Date/Time,Date Repeat API (date_repeat),7.x-2.10
+Date/Time,Date Repeat Field (date_repeat_field),7.x-2.10
+Date/Time,Date Tools (date_tools),7.x-2.10
+Date/Time,Date Views (date_views),7.x-2.10
+Development,Devel (devel),7.x-1.6
+Development,Devel generate (devel_generate),7.x-1.6
+Development,Devel node access (devel_node_access),7.x-1.6
+Features,Date Migration Example (date_migrate_example),7.x-2.10
+Features,Features (features),7.x-2.10
+Features,UUID Services Example (uuid_services_example),7.x-1.2
+Fields,Bundle copy (bundle_copy),7.x-1.1
+Fields,Email (email),7.x-1.3
+Fields,Entity Reference (entityreference),7.x-1.5
+Fields,Entity Reference Behavior Example (entityreference_behavior_example),7.x-1.5
+Fields,Field Group (field_group),7.x-1.6
+Fields,Field Permissions (field_permissions),7.x-1.0
+Fields,Link (link),7.x-1.5
+Fields,Multiupload Filefield Widget (multiupload_filefield_widget),7.x-1.13
+Fields,Multiupload Imagefield Widget (multiupload_imagefield_widget),7.x-1.3
+FlexSlider,FlexSlider (flexslider),7.x-2.0-rc2
+FlexSlider,FlexSlider Example (flexslider_example),7.x-2.0-rc2
+FlexSlider,FlexSlider Fields (flexslider_fields),7.x-2.0-rc2
+FlexSlider,FlexSlider Views Style (flexslider_views),7.x-2.0-rc2
+Input filters,Pathologic (pathologic),7.x-3.1
+Lightweight Directory Access Protocol,LDAP Authentication (ldap_authentication),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Authorization (ldap_authorization),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Authorization - Drupal Roles (ldap_authorization_drupal_role),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Authorization - OG (Organic Groups) (ldap_authorization_og),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Feeds (ldap_feeds),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Help (ldap_help),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Query (ldap_query),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Servers (ldap_servers),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Test Module (ldap_test),7.x-2.4
+Lightweight Directory Access Protocol,LDAP User Module (ldap_user),7.x-2.4
+Lightweight Directory Access Protocol,LDAP Views (ldap_views),7.x-2.4
+Media,IMCE (imce),7.x-1.11
+Media,IMCE for File Field (imce_filefield),7.x-1.1
+Media,Media (media),7.x-2.21
+Media,Media Bulk Upload (media_bulk_upload),7.x-2.21
+Media,Media Field (mediafield),7.x-2.21
+Media,Media Internet Sources (media_internet),7.x-2.21
+Media,Media WYSIWYG (media_wysiwyg),7.x-2.21
+Media,Media WYSIWYG View Mode (media_wysiwyg_view_mode),7.x-2.21
+Migration,Migrate (migrate),7.x-2.11
+Migration,Migrate Example (migrate_example),7.x-2.11
+Migration,Migrate example - Oracle (migrate_example_oracle),7.x-2.11
+Migration,Migrate UI (migrate_ui),7.x-2.11
+Migration,migrate_example_baseball (migrate_example_baseball),7.x-2.11
+Multilingual - Internationalization,Rules translation (rules_i18n),7.x-2.11
+Other,Administer Users by Role (administerusersbyrole),7.x-2.0
+Other,Backup and Migrate (backup_migrate),7.x-3.5
+Other,Block Group (blockgroup),7.x-2.2
+Other,Chain Menu Access API (chain_menu_access),7.x-2.0
+Other,Diff (diff),7.x-3.3
+Other,Entity API (entity),7.x-1.9
+Other,Entity tokens (entity_token),7.x-1.9
+Other,Libraries (libraries),7.x-2.5
+Other,Link checker (linkchecker),7.x-1.4
+Other,Node Class (node_class),7.x-1.3
+Other,Node clone (clone),7.x-1.0
+Other,Pathauto (pathauto),7.x-1.3
+Other,Publish Content (publishcontent),7.x-1.4
+Other,Redirect (redirect),7.x-1.0-rc3
+Other,Restrict IP (restrict_ip),7.x-2.2
+Other,Revisioning (revisioning),7.x-1.9
+Other,Revisioning Scheduler (revisioning_scheduler),7.x-1.9
+Other,Revisioning UX (revisioning_ux),7.x-1.9
+Other,Role delegation (role_delegation),7.x-1.1
+Other,Secure Pages (securepages),7.x-1.0-beta2
+Other,Security Review (security_review),7.x-1.3
+Other,Token (token),7.x-1.7
+Paragraphs,Paragraphs (paragraphs),7.x-1.0-rc5
+Paragraphs,Paragraphs - Internationalization (paragraphs_i18n),7.x-1.0-rc5
+Paragraphs,Paragraphs Bundle Permissions (paragraphs_bundle_permissions),7.x-1.0-rc5
+Path management,Global Redirect (globalredirect),7.x-1.6
+People,No Request New Pass (noreqnewpass),7.x-1.2
+Permissions,View Unpublished (view_unpublished),7.x-1.2
+Rules,Rules (rules),7.x-2.11
+Rules,Rules Scheduler (rules_scheduler),7.x-2.11
+Rules,Rules UI (rules_admin),7.x-2.11
+Search,Search API (search_api),7.x-1.25
+Search,Search facets (search_api_facetapi),7.x-1.25
+Search,Search views (search_api_views),7.x-1.25
+Services - resources,UUID Services (uuid_services),7.x-1.2
+Slick,Slick (slick),7.x-2.0
+Slick,Slick fields (slick_fields),7.x-2.0
+Slick,Slick UI (slick_ui),7.x-2.0
+Slick,Slick views (slick_views),7.x-2.0
+Statistics,Event log (event_log),7.x-1.6
+Statistics,Event Log Menu events (event_log_menu),7.x-1.6
+Statistics,Event Log Node events (event_log_node),7.x-1.6
+Statistics,Event Log Taxonomy events (event_log_taxonomy),7.x-1.6
+Statistics,Event Log User Authentication (event_log_auth),7.x-1.6
+Statistics,Event Log User events (event_log_user),7.x-1.6
+Statistics,Google Analytics (googleanalytics),7.x-2.5
+User interface,CKEditor Link (ckeditor_link),7.x-2.4
+User interface,IMCE Wysiwyg API bridge (imce_wysiwyg),7.x-1.0
+User interface,Lightbox2 (lightbox2),7.x-2.12
+User interface,Responsive Menus (responsive_menus),7.x-1.6
+User interface,Wysiwyg (wysiwyg),7.x-2.5
+UUID,Universally Unique ID (uuid),7.x-1.2
+UUID,UUID Path (uuid_path),7.x-1.2
+Views,Views (views),7.x-3.20
+Views,Views Data Export (views_data_export),7.x-3.2
+Views,Views Field View (views_field_view),7.x-1.2
+Views,Views fieldsets (views_fieldsets),7.x-2.3
+Views,Views UI (views_ui),7.x-3.20
+Webform,Webform (webform),7.x-4.18
