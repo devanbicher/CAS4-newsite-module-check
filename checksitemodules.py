@@ -1,4 +1,4 @@
-import os,datetime, sys
+import os,datetime, sys, argparse
 
 #this script checks a list of supplied modules in csv format to see if those modules are installed on the server
 #
@@ -7,8 +7,11 @@ import os,datetime, sys
 ########  checking versions
 ########  printing out a list of the modules to be used with drush dl, rather than doing it by default
 
+##by default my script will assume that the status is in the file
+
 def parsemodulelist(modulefile,v):
     #set some variables up
+    #need to do status too
     if v:
         lnlen = 2
     else:
@@ -25,6 +28,7 @@ def parsemodulelist(modulefile,v):
             linelist = line.split(',')
             if len(linelist)>lnlen and linelist[1].find('(')>0:
                 package = linelist[0]
+                # Access control,Block Access (block_access),Disabled,7.x-1.6
                 # Access control,Block Access (block_access),7.x-1.6
                 names = linelist[1].strip().split('(')
                 if len(names)>2:
@@ -59,7 +63,13 @@ def parsemodulelist(modulefile,v):
 
 
 def main():
-
+    #setup the arguments for parsing
+    #parser=argparse.ArgumentParse()
+    #parser.add_argument("version", help="Whether or not the versions should be compared")
+    #parser.add_argument("status", help="Whether or not the status should be accepted")
+    
+    #parser.parse_args()
+    
     if len(sys.argv)<2:
         #print 
         raise SystemExit("You must supply a list of modules for this script to work")
@@ -74,9 +84,11 @@ def main():
 
     here=os.getcwd()
     scripthome="/home/dlb213/usedscripts/newsitemodulecheck"
-    os.chdir(here)
+
     now = datetime.datetime.now()
+    os.chdir(scripthome)
     os.system('mv currentmodulelist.csv modulelistbackups/currentmodulelist-'+now.strftime('%m%d%y%H%M')+'.csv')
+
     print "generating current module list"
     os.chdir('/var/www/drupal/sites/')
     os.system('drush pm-list --type=module --format=csv  --fields=package,name,version > /home/dlb213/usedscripts/newsitemodulecheck/currentmodulelist.csv')
@@ -93,13 +105,29 @@ def main():
     modfile=open(filename,'r')
     modulelist = parsemodulelist(modfile,version)
     modfile.close()
-    print "--------------------------------------"
+    #print "--------------------------------------"
     dlmods=''
+    longmodname = 0
+    longmachinename = 0
+    printlist = []
     for mod in sorted(modulelist):
         if mod not in currentlist.keys():
-            print modulelist[mod][0]+ "      "+mod
+            #print modulelist[mod][0]+ "      "+mod
+            printlist.append((modulelist[mod][0],mod))
+            #don't print for now, get the length of the longest string
+            if len(modulelist[mod][0])>longmodname:
+                longmodname = len(modulelist[mod][0])
+            if len(mod) > longmachinename:
+                longmachinename = len(mod)
+            
             dlmods=mod+','+dlmods
-    print "--------------------------------------"
+
+    print '-'.center(longmodname+longmachinename+24,'-')
+    for (n,m) in printlist:
+        print n.ljust((longmodname+10))+m.ljust((longmachinename+10))
+
+    print '-'.center(longmodname+longmachinename+24,'-')
+    #print "--------------------------------------"
     print dlmods.strip(',')
     print ''
     
